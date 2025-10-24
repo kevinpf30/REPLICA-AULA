@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.encabezado {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.izquierda, .derecha {
+    display: flex;
+    align-items: center;
+}
+
+.derecha {
+    gap: 10px;
+}
+
+.izquierda img {
+    height: 50px;
+    width: auto;
+}
+
+.derecha img {
+    height: 19px;
+    width: auto;
+}
+
+.izquierda  {
+    gap: 10px;
+}
+
+.izquierda a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.605);
+    margin-left: 20px;
+    padding: 20px 10px;
+}
+
+.izquierda a:hover {
+    background-color: rgba(208, 208, 208, 0.541);
+}
+
+.derecha .Fotoprofe{
+    display: flex;
+    align-items: center;
+
+}
+
+.derecha .Fotoprofe img {
+    width: 40px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.derecha p {
+    margin-bottom: 7px;
+    margin-right: 7px;
+}
+
+.papito {
+    margin: 40px;
+
+}
+
+.Vcurso {
+    margin-bottom: 15px;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: rgba(185, 185, 185, 0.331);
+}
+
+.cursos {
+    display: flex;
+    gap: 5px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+
+.item img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+ }
+.item{
+    width: 32%;
+    height: auto;
+    border: 1px solid rgba(219, 219, 219, 0.713);
+    border-radius: 5px;
+   
+}
+.item a, p{
+    font-size: 18px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.item a {
+    color: rgba(59, 139, 188, 0.896);
+}
+
+.item img {
+    margin-bottom: 10px;
+}
+
+
+
+.puntos{
+    display: flex;
+    justify-content: right;
+}
+
+.select {
+    display: flex;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+select, input {
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 1px gray;
+}
+
+.pie {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.pie p {
+    margin: 0;
+}
+
